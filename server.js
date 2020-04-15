@@ -1,11 +1,13 @@
+//http currently further will use express
 const http = require('http');
-
+//file system module
 const fs = require('fs');
-
+//for dir path
 const path = require('path');
-
+//for directory access
 const dirpath= path.join(__dirname,'snippets');
-
+// get card
+const get_card = require('./app.js')
 //reading all the snippets 
 fs.readdir(dirpath,(err,files)=>{
     if(err)
@@ -32,11 +34,11 @@ fs.readdir(dirpath,(err,files)=>{
                 //skip the template
             }
             else {
-                console.log(obj.title);
-
+                // console.log(obj.title);
+                let html_card = get_card(obj.title, obj.description, obj.usage);
+                console.log(html_card);
+      
             }
-        
-        
         });
 
     });
