@@ -1,0 +1,6 @@
+{
+    "title": "title for the operation",
+    "description": "basic description about the operation",
+    "usage": " use case for the operation",
+    "alternative": " any short hand / other details"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "Index of SubList",
+    "description": "return the starting position of first occurrences of the specified target list in source list orElse -1",
+    "usage": " Collections.indexOfSubList(list_src,list_target)",
+    "alternative": " any short hand / other details"
+}

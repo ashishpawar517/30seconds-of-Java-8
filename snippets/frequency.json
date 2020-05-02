@@ -1,0 +1,6 @@
+{
+    "title": "Count the frequency",
+    "description": "count the occurrences of element in Collection",
+    "usage": " int a = Collections.frequency(list,key);",
+    "alternative": " any short hand / other details"
+}

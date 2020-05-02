@@ -1,0 +1,6 @@
+{
+    "title": "Random Permutation of List",
+    "description": "Randomly permutes the specified list using a default source of randomness.",
+    "usage": " Collections.shuffle(list)",
+    "alternative": " any short hand / other details"
+}

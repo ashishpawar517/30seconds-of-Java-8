@@ -34,9 +34,9 @@
             </div>
             <div class="card">     
                 <div class="card-body">
-                    <h5 class="card-title">forEach</h5>
-                    <p class="card-text"> this operation used to traverse all the elements in the Collection    </p>
-                    <p class="card-text"><small class="text-muted">list.stream().forEach(System.out::println)</small></p>
+                    <h5 class="card-title">Binary search in sorted collection</h5>
+                    <p class="card-text"> search element in sorted collection O(logn)     </p>
+                    <p class="card-text"><small class="text-muted"> int pos = Collection.binarySearch(list,key)</small></p>
                 </div>
             </div>
             <div class="card">     
@@ -44,6 +44,90 @@
                     <h5 class="card-title">Filter</h5>
                     <p class="card-text"> The filter method is used to filter some data from the collection.    </p>
                     <p class="card-text"><small class="text-muted"> List<Integer> temp = list.stream().filter(e->e%2 == 0).collect(Collectors.toList());</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">forEach</h5>
+                    <p class="card-text"> this operation used to traverse all the elements in the Collection    </p>
+                    <p class="card-text"><small class="text-muted">list.stream().forEach(System.out::println)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Copy one collection to another</h5>
+                    <p class="card-text"> Copies elements from one collection to another.    </p>
+                    <p class="card-text"><small class="text-muted"> Collection.copy(dest,src) </small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Count the frequency</h5>
+                    <p class="card-text"> count the occurrences of element in Collection    </p>
+                    <p class="card-text"><small class="text-muted"> int a = Collections.frequency(list,key);</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Index of SubList</h5>
+                    <p class="card-text"> return the starting position of first occurrences of the specified target list in source list orElse -1    </p>
+                    <p class="card-text"><small class="text-muted"> Collections.indexOfSubList(list_src,list_target)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Last Index of SubList</h5>
+                    <p class="card-text"> return the starting position of last occurrences of the specified target list in source list orElse -1    </p>
+                    <p class="card-text"><small class="text-muted"> Collections.lastIndexOfSubList(list_src,list_target)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Max of Collection</h5>
+                    <p class="card-text"> Returns the maximum element of the given collection, according to the natural ordering of its elements.    </p>
+                    <p class="card-text"><small class="text-muted">Collections.max(list)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Min of Collection</h5>
+                    <p class="card-text"> Returns the minimum element of the given collection, according to the natural ordering of its elements.    </p>
+                    <p class="card-text"><small class="text-muted">Collections.min(list)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Reverse the order of Elements</h5>
+                    <p class="card-text"> reverses the order of all the elements inside the list    </p>
+                    <p class="card-text"><small class="text-muted">Collections.reverse(list)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Rotate </h5>
+                    <p class="card-text"> Rotates the elements in the specified list by the specified distance.    </p>
+                    <p class="card-text"><small class="text-muted"> Collections.rotate(list,key)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Random Permutation of List</h5>
+                    <p class="card-text"> Randomly permutes the specified list using a default source of randomness.    </p>
+                    <p class="card-text"><small class="text-muted"> Collections.shuffle(list)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Sort the Collection with custom comparator</h5>
+                    <p class="card-text"> Sorts the specified list according to the order induced by the specified comparator.    </p>
+                    <p class="card-text"><small class="text-muted">Collections.sort(list,Comparator.reverseOrder())</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Sort the Collection</h5>
+                    <p class="card-text"> Sorts the specified list into ascending order, according to the natural ordering of its elements.    </p>
+                    <p class="card-text"><small class="text-muted">Collections.sort(list)</small></p>
                 </div>
             </div>
             

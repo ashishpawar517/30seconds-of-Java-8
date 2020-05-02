@@ -1,0 +1,6 @@
+{
+    "title": "Copy one collection to another",
+    "description": "Copies elements from one collection to another.",
+    "usage": " Collection.copy(dest,src) ",
+    "alternative": " any short hand / other details"
+}
