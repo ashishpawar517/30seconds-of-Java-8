@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const header = () => {
+const header = async() => {
 
     let fixed = `<!DOCTYPE html>
 <html lang="en">
@@ -33,7 +33,7 @@ const header = () => {
 
     fs.writeFile('index.html', fixed, function (err) {
         if (err) throw err;
-        console.log('header added')
+        // console.log('header added')
     });
 
 }

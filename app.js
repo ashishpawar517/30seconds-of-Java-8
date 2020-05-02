@@ -8,7 +8,9 @@
 // x = alt 120 
 // → = 26 
 
-function getCard(title,description,usage){
+//making it async so as to await 
+const getCard = function(title,description,usage) 
+{
     return `<div class="card">     
                 <div class="card-body">
                     <h5 class="card-title">${title}</h5>

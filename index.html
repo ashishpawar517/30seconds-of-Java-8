@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- template for the main page -->
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <center>
+                <h1>30s of Java 8</h1>
+                <p>Short Java 8 code snippets for all your development needs </p>
+            </center>
+
+        </div>
+        <!-- <p>This is some text.</p> -->
+        <!-- <p>This is another text.</p> -->
+    </div>
+    <div class="container">
+        <div class="card-columns">
+<div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Collect</h5>
+                    <p class="card-text"> The collect method is used to return the result of the intermediate operations performed on the stream    </p>
+                    <p class="card-text"><small class="text-muted"> Set square = list.stream().collect(Collectors.toSet());</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">forEach</h5>
+                    <p class="card-text"> this operation used to traverse all the elements in the Collection    </p>
+                    <p class="card-text"><small class="text-muted">list.stream().forEach(System.out::println)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Filter</h5>
+                    <p class="card-text"> The filter method is used to filter some data from the collection.    </p>
+                    <p class="card-text"><small class="text-muted"> List<Integer> temp = list.stream().filter(e->e%2 == 0).collect(Collectors.toList());</small></p>
+                </div>
+            </div>
+            

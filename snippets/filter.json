@@ -1,0 +1,6 @@
+{
+    "title": "Filter",
+    "description": "The filter method is used to filter some data from the collection.",
+    "usage": " List<Integer> temp = list.stream().filter(e->e%2 == 0).collect(Collectors.toList());",
+    "alternative": " filtering all the even numbers from list."
+}

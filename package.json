@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "Aashish Pawar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "express": "^4.17.1"
+  }
 }

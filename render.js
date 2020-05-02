@@ -4,21 +4,25 @@ var fs = require('fs');
 
 
 //data is array of cards 
-function render(data){
+const render =  async(data) =>
+{
     
-    data.forEach(element => {
+    // console.log(data);
+    // data.forEach(element => {
         fs.appendFile('index.html', data, function (err) {
-            if (err) throw err;
-            console.log('Saved!');
+            if (err) 
+            {
+                console.log(err);
+            }
+            // else{
+                // console.log('done appending.');
+            // }?
+            // console.log('Saved!');
         });
-    
-    });
-    
-    //add closing tags 
-
-
-    //end body tags 
-
 }
-
+    // });
+    // return true;
+    //add closing tags 
+    //end body tags
+// }
 module.exports = render;
