@@ -34,6 +34,13 @@
             </div>
             <div class="card">     
                 <div class="card-body">
+                    <h5 class="card-title">Copy one collection to another</h5>
+                    <p class="card-text"> Copies elements from one collection to another.    </p>
+                    <p class="card-text"><small class="text-muted"> Collection.copy(dest,src) </small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
                     <h5 class="card-title">Binary search in sorted collection</h5>
                     <p class="card-text"> search element in sorted collection O(logn)     </p>
                     <p class="card-text"><small class="text-muted"> int pos = Collection.binarySearch(list,key)</small></p>
@@ -44,20 +51,6 @@
                     <h5 class="card-title">Filter</h5>
                     <p class="card-text"> The filter method is used to filter some data from the collection.    </p>
                     <p class="card-text"><small class="text-muted"> List<Integer> temp = list.stream().filter(e->e%2 == 0).collect(Collectors.toList());</small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">forEach</h5>
-                    <p class="card-text"> this operation used to traverse all the elements in the Collection    </p>
-                    <p class="card-text"><small class="text-muted">list.stream().forEach(System.out::println)</small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">Copy one collection to another</h5>
-                    <p class="card-text"> Copies elements from one collection to another.    </p>
-                    <p class="card-text"><small class="text-muted"> Collection.copy(dest,src) </small></p>
                 </div>
             </div>
             <div class="card">     
@@ -76,16 +69,16 @@
             </div>
             <div class="card">     
                 <div class="card-body">
-                    <h5 class="card-title">Last Index of SubList</h5>
-                    <p class="card-text"> return the starting position of last occurrences of the specified target list in source list orElse -1    </p>
-                    <p class="card-text"><small class="text-muted"> Collections.lastIndexOfSubList(list_src,list_target)</small></p>
+                    <h5 class="card-title">forEach</h5>
+                    <p class="card-text"> this operation used to traverse all the elements in the Collection    </p>
+                    <p class="card-text"><small class="text-muted">list.stream().forEach(System.out::println)</small></p>
                 </div>
             </div>
             <div class="card">     
                 <div class="card-body">
-                    <h5 class="card-title">Max of Collection</h5>
-                    <p class="card-text"> Returns the maximum element of the given collection, according to the natural ordering of its elements.    </p>
-                    <p class="card-text"><small class="text-muted">Collections.max(list)</small></p>
+                    <h5 class="card-title">Last Index of SubList</h5>
+                    <p class="card-text"> return the starting position of last occurrences of the specified target list in source list orElse -1    </p>
+                    <p class="card-text"><small class="text-muted"> Collections.lastIndexOfSubList(list_src,list_target)</small></p>
                 </div>
             </div>
             <div class="card">     
@@ -97,16 +90,16 @@
             </div>
             <div class="card">     
                 <div class="card-body">
-                    <h5 class="card-title">Reverse the order of Elements</h5>
-                    <p class="card-text"> reverses the order of all the elements inside the list    </p>
-                    <p class="card-text"><small class="text-muted">Collections.reverse(list)</small></p>
+                    <h5 class="card-title">Max of Collection</h5>
+                    <p class="card-text"> Returns the maximum element of the given collection, according to the natural ordering of its elements.    </p>
+                    <p class="card-text"><small class="text-muted">Collections.max(list)</small></p>
                 </div>
             </div>
             <div class="card">     
                 <div class="card-body">
-                    <h5 class="card-title">Rotate </h5>
-                    <p class="card-text"> Rotates the elements in the specified list by the specified distance.    </p>
-                    <p class="card-text"><small class="text-muted"> Collections.rotate(list,key)</small></p>
+                    <h5 class="card-title">Check for Primality Using BigInteger</h5>
+                    <p class="card-text"> java.math.BigInteger has built in method isProbablePrime which check for primality    </p>
+                    <p class="card-text"><small class="text-muted">boolean result = BigInteger.valueOf(num).isProbablePrime(100)</small></p>
                 </div>
             </div>
             <div class="card">     
@@ -118,9 +111,23 @@
             </div>
             <div class="card">     
                 <div class="card-body">
-                    <h5 class="card-title">Sort the Collection with custom comparator</h5>
-                    <p class="card-text"> Sorts the specified list according to the order induced by the specified comparator.    </p>
-                    <p class="card-text"><small class="text-muted">Collections.sort(list,Comparator.reverseOrder())</small></p>
+                    <h5 class="card-title">Python 'str'*5 in java </h5>
+                    <p class="card-text"> There's no built in method for string repeat in java but we can achieve this using streams.    </p>
+                    <p class="card-text"><small class="text-muted">String res = String.join("",Collections.ncopies(ntimes,"string"));</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">GCD Using BigInteger</h5>
+                    <p class="card-text"> BigInteger has built in method for the calculating gcd of two numbers    </p>
+                    <p class="card-text"><small class="text-muted"> int result = BigInteger.valueOf(a).gcd(BigInteger.valueOf(b)).intValueExact();</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Reverse the order of Elements</h5>
+                    <p class="card-text"> reverses the order of all the elements inside the list    </p>
+                    <p class="card-text"><small class="text-muted">Collections.reverse(list)</small></p>
                 </div>
             </div>
             <div class="card">     
@@ -128,6 +135,20 @@
                     <h5 class="card-title">Sort the Collection</h5>
                     <p class="card-text"> Sorts the specified list into ascending order, according to the natural ordering of its elements.    </p>
                     <p class="card-text"><small class="text-muted">Collections.sort(list)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Rotate </h5>
+                    <p class="card-text"> Rotates the elements in the specified list by the specified distance.    </p>
+                    <p class="card-text"><small class="text-muted"> Collections.rotate(list,key)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Sort the Collection with custom comparator</h5>
+                    <p class="card-text"> Sorts the specified list according to the order induced by the specified comparator.    </p>
+                    <p class="card-text"><small class="text-muted">Collections.sort(list,Comparator.reverseOrder())</small></p>
                 </div>
             </div>
             

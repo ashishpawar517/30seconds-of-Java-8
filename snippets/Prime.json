@@ -1,0 +1,6 @@
+{
+    "title": "Check for Primality Using BigInteger",
+    "description": "java.math.BigInteger has built in method isProbablePrime which check for primality",
+    "usage": "boolean result = BigInteger.valueOf(num).isProbablePrime(100)",
+    "alternative": " any short hand / other details"
+}
