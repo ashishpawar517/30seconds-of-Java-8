@@ -5,15 +5,16 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test":"jest",
-    "test:watch":"jest --watch",
-    "test:coveralls":"jest --coverage --converageReporters=text-lcov|coveralls"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coveralls": "jest --coverage --converageReporters=text-lcov|coveralls"
   },
   "author": "Aashish Pawar",
   "license": "ISC",
   "dependencies": {
     "async": "^3.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^25.5.4"
   },
   "devDependencies": {
     "coveralls": "^3.1.0"
