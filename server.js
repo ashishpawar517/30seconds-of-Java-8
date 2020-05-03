@@ -1,3 +1,4 @@
+
 //http currently further will use express
 const http = require('http');
 //file system module
@@ -21,14 +22,14 @@ var express = require('express');
 var app = express();
 
 const doAll = async () => {
+
     await truncate();
     await header();
 
     const cards = await run();
     console.log('done');
-    // await render(cards);
 
-}
+};
 doAll();
 // viewed at http://localhost:8080
 app.get('/', function (req, res) {
