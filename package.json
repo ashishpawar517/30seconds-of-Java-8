@@ -4,10 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coveralls": "jest --coverage --converageReporters=text-lcov|coveralls"
+    "start": "node server.js"
   },
   "author": "Aashish Pawar",
   "license": "ISC",
