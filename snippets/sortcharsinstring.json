@@ -1,0 +1,6 @@
+{
+    "title":"Sort characters in String ",
+    "description":"sort characters in a string using stream ",
+    "usage":"String result = Arrays.stream(input_str.split(\"\")).sorted().collect(Collectors.joining());",
+    "alternative":" any short hand / other details"
+}

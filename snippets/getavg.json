@@ -1,0 +1,6 @@
+{
+    "title":"Get Average ",
+    "description":"Returns the average of integer array.",
+    "usage":" IntStream.of(arr).average()",
+    "alternative":" any short hand / other details"
+}

@@ -1,0 +1,6 @@
+{
+    "title":"Count Vowels",
+    "description":"Returns the number of vowels in the provided string.",
+    "usage":" int count = input_str.replaceAll(\"[^aeiou]\", \"\").length()",
+    "alternative":""
+}

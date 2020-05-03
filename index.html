@@ -27,6 +27,13 @@
         <div class="card-columns">
 <div class="card">     
                 <div class="card-body">
+                    <h5 class="card-title">Copy one collection to another</h5>
+                    <p class="card-text"> Copies elements from one collection to another.    </p>
+                    <p class="card-text"><small class="text-muted"> Collection.copy(dest,src) </small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
                     <h5 class="card-title">Binary search in sorted collection</h5>
                     <p class="card-text"> search element in sorted collection O(logn)     </p>
                     <p class="card-text"><small class="text-muted"> int pos = Collection.binarySearch(list,key)</small></p>
@@ -41,44 +48,9 @@
             </div>
             <div class="card">     
                 <div class="card-body">
-                    <h5 class="card-title">Copy one collection to another</h5>
-                    <p class="card-text"> Copies elements from one collection to another.    </p>
-                    <p class="card-text"><small class="text-muted"> Collection.copy(dest,src) </small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">Char digit to Integer</h5>
-                    <p class="card-text"> Covert character digit to integer    </p>
-                    <p class="card-text"><small class="text-muted">Character.getNumericValue('9') or just '9' - '0' </small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
                     <h5 class="card-title">Filter</h5>
                     <p class="card-text"> The filter method is used to filter some data from the collection.    </p>
                     <p class="card-text"><small class="text-muted"> List<Integer> temp = list.stream().filter(e->e%2 == 0).collect(Collectors.toList());</small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">Safe compare Double values</h5>
-                    <p class="card-text"> Safely compare double values with high precision    </p>
-                    <p class="card-text"><small class="text-muted">Double.compare(1.233333,1.2333333) == 0 </small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">forEach</h5>
-                    <p class="card-text"> this operation used to traverse all the elements in the Collection    </p>
-                    <p class="card-text"><small class="text-muted">list.stream().forEach(System.out::println)</small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">Count the frequency</h5>
-                    <p class="card-text"> count the occurrences of element in Collection    </p>
-                    <p class="card-text"><small class="text-muted"> int a = Collections.frequency(list,key);</small></p>
                 </div>
             </div>
             <div class="card">     
@@ -97,37 +69,16 @@
             </div>
             <div class="card">     
                 <div class="card-body">
+                    <h5 class="card-title">Count the frequency</h5>
+                    <p class="card-text"> count the occurrences of element in Collection    </p>
+                    <p class="card-text"><small class="text-muted"> int a = Collections.frequency(list,key);</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
                     <h5 class="card-title">Max of Collection</h5>
                     <p class="card-text"> Returns the maximum element of the given collection, according to the natural ordering of its elements.    </p>
                     <p class="card-text"><small class="text-muted">Collections.max(list)</small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">GCD Using BigInteger</h5>
-                    <p class="card-text"> BigInteger has built in method for the calculating gcd of two numbers    </p>
-                    <p class="card-text"><small class="text-muted"> int result = BigInteger.valueOf(a).gcd(BigInteger.valueOf(b)).intValueExact();</small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">Min of Collection</h5>
-                    <p class="card-text"> Returns the minimum element of the given collection, according to the natural ordering of its elements.    </p>
-                    <p class="card-text"><small class="text-muted">Collections.min(list)</small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">Reverse the order of Elements</h5>
-                    <p class="card-text"> reverses the order of all the elements inside the list    </p>
-                    <p class="card-text"><small class="text-muted">Collections.reverse(list)</small></p>
-                </div>
-            </div>
-            <div class="card">     
-                <div class="card-body">
-                    <h5 class="card-title">Check for Primality Using BigInteger</h5>
-                    <p class="card-text"> java.math.BigInteger has built in method isProbablePrime which check for primality    </p>
-                    <p class="card-text"><small class="text-muted">boolean result = BigInteger.valueOf(num).isProbablePrime(100)</small></p>
                 </div>
             </div>
             <div class="card">     
@@ -139,9 +90,16 @@
             </div>
             <div class="card">     
                 <div class="card-body">
-                    <h5 class="card-title">Random Permutation of List</h5>
-                    <p class="card-text"> Randomly permutes the specified list using a default source of randomness.    </p>
-                    <p class="card-text"><small class="text-muted"> Collections.shuffle(list)</small></p>
+                    <h5 class="card-title">forEach</h5>
+                    <p class="card-text"> this operation used to traverse all the elements in the Collection    </p>
+                    <p class="card-text"><small class="text-muted">list.stream().forEach(System.out::println)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Reverse the order of Elements</h5>
+                    <p class="card-text"> reverses the order of all the elements inside the list    </p>
+                    <p class="card-text"><small class="text-muted">Collections.reverse(list)</small></p>
                 </div>
             </div>
             <div class="card">     
@@ -149,6 +107,34 @@
                     <h5 class="card-title">Rotate </h5>
                     <p class="card-text"> Rotates the elements in the specified list by the specified distance.    </p>
                     <p class="card-text"><small class="text-muted"> Collections.rotate(list,key)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Check for Primality Using BigInteger</h5>
+                    <p class="card-text"> java.math.BigInteger has built in method isProbablePrime which check for primality    </p>
+                    <p class="card-text"><small class="text-muted">boolean result = BigInteger.valueOf(num).isProbablePrime(100)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Random Permutation of List</h5>
+                    <p class="card-text"> Randomly permutes the specified list using a default source of randomness.    </p>
+                    <p class="card-text"><small class="text-muted"> Collections.shuffle(list)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">Min of Collection</h5>
+                    <p class="card-text"> Returns the minimum element of the given collection, according to the natural ordering of its elements.    </p>
+                    <p class="card-text"><small class="text-muted">Collections.min(list)</small></p>
+                </div>
+            </div>
+            <div class="card">     
+                <div class="card-body">
+                    <h5 class="card-title">GCD Using BigInteger</h5>
+                    <p class="card-text"> BigInteger has built in method for the calculating gcd of two numbers    </p>
+                    <p class="card-text"><small class="text-muted"> int result = BigInteger.valueOf(a).gcd(BigInteger.valueOf(b)).intValueExact();</small></p>
                 </div>
             </div>
             <div class="card">     
