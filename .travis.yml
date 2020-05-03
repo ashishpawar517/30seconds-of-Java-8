@@ -8,4 +8,11 @@ install:
   - npm ci
 
 script:
-  - npm run test:coveralls
+  # - npm run test
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: gh-pages 
