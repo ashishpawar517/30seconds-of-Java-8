@@ -4,6 +4,9 @@ language: node_js
 node_js:
   - node 
 
+script:
+  - npm test
+
 deploy:
   provider: pages
   skip_cleanup: true

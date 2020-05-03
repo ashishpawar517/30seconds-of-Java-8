@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
-  },
+    "start": "node server.js",
+    "test" :"npx jshint server.js"
+   },
   "author": "Aashish Pawar",
   "license": "ISC",
   "dependencies": {
