@@ -1,0 +1,6 @@
+{
+  "title": "Safe compare Double values",
+  "description": "Safely compare double values with high precision",
+  "usage": "Double.compare(1.233333,1.2333333) == 0 ",
+  "alternative": " any short hand / other details"
+}

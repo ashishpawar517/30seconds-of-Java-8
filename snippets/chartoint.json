@@ -1,0 +1,6 @@
+{
+  "title": "Char digit to Integer",
+  "description": "Covert character digit to integer",
+  "usage": "Character.getNumericValue('9') or just '9' - '0' ",
+  "alternative": " any short hand / other details"
+}
