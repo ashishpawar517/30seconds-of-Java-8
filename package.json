@@ -5,17 +5,16 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test" :"npx jshint server.js"
-   },
+    "test":"npx jshint server"
+  },
   "author": "Aashish Pawar",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.2.0",
-    "express": "^4.17.1",
-    "jest": "^25.5.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "coveralls": "^3.1.0",
+    "istanbul": "^0.4.5",
+    "jasmine-supertest": "^1.0.0",
     "jshint": "^2.11.0"
   }
 }
