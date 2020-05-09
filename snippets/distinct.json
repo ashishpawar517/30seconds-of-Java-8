@@ -1,0 +1,6 @@
+{
+    "title":"Distinct values of Array ",
+    "description":"filters out all the unique/distinct elements from the array",
+    "usage":"Arrays.stream(elements).distinct().toArray();",
+    "alternative":" any short hand / other details"
+}

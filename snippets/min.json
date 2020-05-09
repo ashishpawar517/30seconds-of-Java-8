@@ -1,0 +1,6 @@
+{
+    "title": "Min of Collection",
+    "description": "Returns the minimum element of the given collection, according to the natural ordering of its elements.",
+    "usage": "Collections.min(list)",
+    "alternative": " any short hand / other details"
+}

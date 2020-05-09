@@ -1,0 +1,6 @@
+{
+    "title": "Rotate ",
+    "description": "Rotates the elements in the specified list by the specified distance.",
+    "usage": " Collections.rotate(list,key)",
+    "alternative": " any short hand / other details"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "Python 'str'*5 in java ",
+    "description": "There's no built in method for string repeat in java but we can achieve this using streams.",
+    "usage": "String res = String.join(\"\",Collections.ncopies(ntimes,\"string\"));",
+    "alternative": " any short hand / other details"
+}

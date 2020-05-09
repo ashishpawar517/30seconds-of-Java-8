@@ -1,0 +1,6 @@
+{
+    "title": "Sort the Collection with custom comparator",
+    "description": "Sorts the specified list according to the order induced by the specified comparator.",
+    "usage": "Collections.sort(list,Comparator.reverseOrder())",
+    "alternative": " any short hand / other details"
+}

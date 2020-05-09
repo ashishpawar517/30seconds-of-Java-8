@@ -1,0 +1,6 @@
+{
+    "title": "Sort the Collection",
+    "description": "Sorts the specified list into ascending order, according to the natural ordering of its elements.",
+    "usage": "Collections.sort(list)",
+    "alternative": " any short hand / other details"
+}

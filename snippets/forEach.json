@@ -1,0 +1,6 @@
+{
+    "title": "forEach",
+    "description": "this operation used to traverse all the elements in the Collection",
+    "usage": "list.stream().forEach(System.out::println)",
+    "alternative": "list.forEach(System.out::println)"
+}

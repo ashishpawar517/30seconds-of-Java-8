@@ -1,0 +1,6 @@
+{
+    "title": "Last Index of SubList",
+    "description": "return the starting position of last occurrences of the specified target list in source list orElse -1",
+    "usage": " Collections.lastIndexOfSubList(list_src,list_target)",
+    "alternative": " any short hand / other details"
+}

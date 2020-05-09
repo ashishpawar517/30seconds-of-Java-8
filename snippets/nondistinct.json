@@ -1,0 +1,6 @@
+{
+    "title":"Filter non Unique  ",
+    "description":"filters out all the non unique elements from the array",
+    "usage":"Arrays.stream(elements).filter(el -> indexOf(elements, el) == lastIndexOf(elements, el)).toArray();",
+    "alternative":" any short hand / other details"
+}

@@ -1,0 +1,6 @@
+{
+    "title": "Binary search in sorted collection",
+    "description": "search element in sorted collection O(logn) ",
+    "usage": " int pos = Collection.binarySearch(list,key)",
+    "alternative": " any short hand / other details"
+}

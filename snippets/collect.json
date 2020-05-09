@@ -1,0 +1,6 @@
+{
+    "title": "Collect",
+    "description": "The collect method is used to return the result of the intermediate operations performed on the stream",
+    "usage": " Set square = list.stream().collect(Collectors.toSet());",
+    "alternative": " any short hand / other details"
+}

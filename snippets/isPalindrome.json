@@ -1,0 +1,6 @@
+{
+    "title":"isPalindrome",
+    "description":"check if given string is palindrome or not ",
+    "usage":"boolean res = str.equals(new StringBuilder(str).reverse().toString())",
+    "alternative":" any short hand / other details"
+}

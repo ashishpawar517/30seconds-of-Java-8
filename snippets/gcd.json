@@ -1,0 +1,6 @@
+{
+    "title": "GCD Using BigInteger",
+    "description": "BigInteger has built in method for the calculating gcd of two numbers",
+    "usage": " int result = BigInteger.valueOf(a).gcd(BigInteger.valueOf(b)).intValueExact();",
+    "alternative": " any short hand / other details"
+}
