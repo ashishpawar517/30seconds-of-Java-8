@@ -16,6 +16,7 @@
         "istanbul": "^0.4.5",
         "jasmine-supertest": "^1.0.0",
         "handlebars": ">=4.7.7",
+        "lodash": ">=4.17.21",
         "jshint": "^2.11.0"
     }
 }
